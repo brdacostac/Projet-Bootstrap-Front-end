@@ -1,0 +1,227 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.navbar{
+	background: linear-gradient(to left, #f8ff64,#388000);
+	padding: 0 !important;
+}
+
+.navbar-brand img{
+	padding-left: 20px;
+	width: 300px;
+}
+
+.navbar-nav li{
+	padding: 0 10px;
+}
+
+.navbar-nav li a{
+	color: #fff !important;
+	font-weight: 600;
+	float: right;
+	text-align: left;
+}
+
+.fa-bars{
+	color: #fff;
+	font-size: 30px !important;
+}
+
+.navbar-toggler{
+	outline: none !important;
+}
+
+.nav-item{
+	font-size: 25px;
+	text-shadow: 10px 5px 5px black;
+}
+
+/*----------Banner-----------*/
+
+#banner{
+	background: linear-gradient(to left, #f8ff64,#388000);
+	color: #fff;
+	padding-top: 5%; 
+}
+
+.promo-title{
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 100px;
+	font-family: sans-serif;
+}
+
+.promo-text{
+	font-size: 20px;
+}
+
+.bottom-img{
+	width: 100%;
+}
+
+/*----------Demandeurs-------*/
+
+#demandeurs{
+	background: #f8f9fa;
+	padding: 80px 0;
+}
+
+.demandeurs{
+	padding: 20px;
+}
+
+.demandeurs h4{
+	padding: 5px;
+	margin-top: 25px;
+	text-transform: uppercase;
+}
+
+.title::before{
+	content: '';
+	background: linear-gradient(to left, #f8ff64,#388000);
+	height: 5px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	transform: translateY(63px);
+}
+
+#demandeurs img{
+	box-shadow: 5px 3px 3px #242424;
+}
+
+/*-----------S.W.O.T------------*/
+
+table, th{
+	text-align: center;
+	border: 1px solid #000;
+}
+
+th{
+	background-color: #B0E330;
+	padding: 20px;
+}
+td{
+	padding: 10px;
+	border-left: 1px solid #000;
+}
+
+#swot{
+	background: #f8f9fa;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+.swot-titles{
+	font-size: 30px;
+	font-weight: 600;
+	margin-top: 8%;
+}
+
+/*-------------------Offreurs-----------------*/
+
+#offreurs{
+	background: #f8f9fa;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+.offreurs{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.line{
+	border-left: 4px solid #388000;
+	padding: 10px;
+}
+
+
+/*-----------------Contact------------------*/
+
+#formulaire{
+	background: #f8f9fa;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+#formulaire .btn-primary{
+	box-shadow: none;
+	padding: 8px 25px;
+	border: none;
+	border-radius: 20px;
+	background: linear-gradient(to left, #f8ff64,#388000);
+}
+
+.sizetitle{
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+/*------------------socialmedia---------------*/
+
+#social-media{
+	background: #f8f9fa;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+#social-media p{
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+.social-icons img{
+	width: 80px;
+	padding-right: 15px;
+	transition: 0.4s;
+}
+
+.social-icons a:hover img{
+	transform: translateY(-10px);
+}
+
+/*----------------Footer---------------*/
+
+#footer{
+	background: linear-gradient(to left, #f8ff64,#388000);
+	color: #fff;
+}
+
+.footer-img{
+	width: 100%;
+}
+
+.footer-box p{
+	padding-left: 150px;
+	text-shadow: 5px 2px 2px #242424;
+}
+
+.footer-box b{
+	
+	font-size: 30px;
+}
+
+.footer-box{
+	padding: 10px;
+	text-align: left;
+	font-size: 25px;
+
+}
+
+/*------------------------------------------*/
